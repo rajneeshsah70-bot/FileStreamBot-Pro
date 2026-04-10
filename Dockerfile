@@ -15,7 +15,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose port if your app has a web server
-EXPOSE 8080
+EXPOSE 1000
 
 # Set the default command to run your bot
 CMD ["python", "-m", "ShivamNox.__main__"]
